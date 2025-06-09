@@ -6,7 +6,7 @@ public class KthMinAndMax {
 		//int arr[] = {7, 10, 4, 3, 20, 15};
 		int arr[]= {2, 3, 1, 20, 15};
 		int k = 4;
-		
+		if(arr.length<k) {System.out.println("K value should be less than arr length"); System.exit(0);}
 		sortArray(arr);
 		
 		System.out.println(":::::::::::Kth Min element:::::::::"+arr[k-1]);
