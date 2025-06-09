@@ -1,4 +1,4 @@
-package com.array.reverse;
+package com.array.programs;
 
 public class ArrayReverseExample {
 
